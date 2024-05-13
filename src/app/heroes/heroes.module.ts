@@ -6,6 +6,7 @@ import { HeroPageComponent } from './pages/hero-page/hero-page.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { ListPageComponent } from './pages/list-page/list-page.component';
 import { NewPageComponent } from './pages/new-page/new-page.component';
+import { SearchPageComponent } from './pages/search-page/search-page.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NewPageComponent } from './pages/new-page/new-page.component';
     HeroPageComponent,
     LayoutPageComponent,
     ListPageComponent,
-    NewPageComponent
+    NewPageComponent,
+    SearchPageComponent
   ],
   imports: [
     CommonModule,
