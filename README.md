@@ -18,6 +18,8 @@ ng g component shared\pages\Error404Page --inline-style --skip-tests
 ng add @angular/material
 ```
 
+> ng g component heroes\components\card --inline-style --skip-tests
+
 # Init
 
 ```bash
