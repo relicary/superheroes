@@ -20,6 +20,8 @@ ng add @angular/material
 
 > ng g component heroes\components\card --inline-style --skip-tests
 
+> ng g pipe heroes\pipes\heroImage --flat --skip-tests
+
 # Init
 
 ```bash
