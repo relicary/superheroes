@@ -47,3 +47,7 @@ or
 ```bash
 ng serve -o
 ```
+
+# JSON to Interface
+
+https://app.quicktype.io/
