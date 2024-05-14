@@ -14,28 +14,36 @@ ng g component heroes\pages\searchPage --inline-style --skip-tests
 ng g component shared\pages\Error404Page --inline-style --skip-tests
 
 
-> ng add @angular/material
+```bash
+ng add @angular/material
+```
 
 # Init
 
-```npm install```
+```bash
+npm install
+```
 
 # Backend
 
+Install Dev Server:
+
+```bash
 npm install --save-dev json-server
-
-To run the `backend`
-
 ```
+
+Run the backend:
+
+```bash
 npm run backend
 ```
 
 # Frontend
 
-```
+```bash
 npm start
 ```
 or
-```
+```bash
 ng serve -o
 ```
