@@ -1,3 +1,5 @@
+
+
 ng g m heroes --routing
 ng g m shared
 ng g m material
@@ -13,3 +15,27 @@ ng g component shared\pages\Error404Page --inline-style --skip-tests
 
 
 > ng add @angular/material
+
+# Init
+
+```npm install```
+
+# Backend
+
+npm install --save-dev json-server
+
+To run the `backend`
+
+```
+npm run backend
+```
+
+# Frontend
+
+```
+npm start
+```
+or
+```
+ng serve -o
+```
