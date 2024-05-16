@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HeroesService } from '../../services/heroes.service';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-search-page',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styles: ``
 })
 export class SearchPageComponent {
+
+  public searchInput = new FormControl('');
+
 
 }
